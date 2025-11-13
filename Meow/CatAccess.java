@@ -13,6 +13,6 @@ public class CatAccess {
         String birthday = scanner.nextLine();
         myCat.setBirthday(birthday);
 
-        System.out.println("Give " + myCat.getName() + " a kitty-kiss for me on " + myCat.getBirthday() + " please.");
+        System.out.println("Give " + myCat.getName() + " a kitty-kiss for me on " + myCat.getBirthday() + " please 🎂😻");
     } 
 }
