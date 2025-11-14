@@ -1,9 +1,7 @@
 public class Instance{
     public static void main(String[] args) {
-        // Create Cupof object
+        // Pour a cup
         Cupof joe1 = new Cupof();
-
-        // Print the value of count
 
         if (Cupof.getCoffee() < 4) {
             System.out.println("Here's your caffeine fix:");
