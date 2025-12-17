@@ -65,10 +65,6 @@ public class PhoneBookHashMap {
                             if (Objects.equals(entry.getValue(), value)) {
                                 System.out.println(entry.getKey());
                             }
-                            // we can't compare like this, null will throws exception
-                            /*(if (entry.getValue().equals(value)) {
-                                result.add(entry.getKey());
-                            }*/
                         }
                     }
                 }else if (userAction.equals("4")) {
